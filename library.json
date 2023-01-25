@@ -20,7 +20,7 @@
     {
         "heltecautomation/Heltec ESP32 Dev-Boards":"^1.1.1"
     
-    }
+    },
     "license": "MIT",
     "frameworks": "arduino",
     "platforms": "espressif32"
