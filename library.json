@@ -18,7 +18,7 @@
     ],
     "dependencies":
     {
-        "heltecautomation/Heltec ESP32 Dev-Boards":"^1.1.1",
+        "heltecautomation/Heltec ESP32 Dev-Boards":"^1.1.1"
     
     }
     "license": "MIT",
