@@ -1,0 +1,34 @@
+{
+    "name": "Heltec_HUPI_Esp32_LoRaWan",
+    "version": "0.1.2",
+    "description": "Arduino/Platformio LoRaWAN library for Heltec ESP32 boards",
+    "keywords": "esp32, lora, heltec",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/hupi-analytics/heltec_wifi_lora_v3.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Vincent Moreno",
+        "email": "vincent.moreno@hupi.fr",
+        "maintainer": true
+      }
+    ],
+    
+    "__headers__" : "LoRaWan_APP.h",
+    "build": {
+      
+      "flags":
+        [
+            "-Isrc/DISPLAY/src",
+            "-Ilib/heltec_wifi_lora_v3/src", 
+            "-Isrc/region",
+            "-Isrc"
+        ] 
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+  } 
